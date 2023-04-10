@@ -1,0 +1,99 @@
+
+// //----------- ==; === -------- compare arrays
+
+// let arr = [1, 2];
+// let arr1 = ["a", "b"]
+
+// console.log(arr == arr1);
+// console.log(arr > arr1);
+// console.log(arr < arr1);
+
+// const a = [1, 2, 3];
+ const b = [1, 2, 3];
+
+// const a1 = [1, 2, 7];
+// const b1 = [1, 2, 6];
+// let a2 = a1.join()
+// let b2 = b1.join()
+
+// console.log(JSON.stringify(a1) == JSON.stringify(b1)) // compare string
+//  console.log(JSON.stringify(a1))
+// console.log(b.toString() === a.toString());
+// let z = b.toString()
+//let x = JSON.stringify(b)
+
+ //console.log(x.length)
+// =========================
+
+//let arr = [1, 2, 3];
+let emptyArr = []
+// emptyArr.push(1, 5, 7)
+// emptyArr.push(1, 3, 5, "f")
+// emptyArr[0] = "A"
+// console.log(emptyArr)
+// let str2 = 
+// console.log(String(arr), " /", String(emptyArr) );
+// console.log(Number(...arr), Number(emptyArr));
+// console.log(Boolean(arr), Boolean(emptyArr));
+
+
+
+
+// ============= Objects =================================
+/**
+ * In JavaScript, objects are king. If you understand objects, you understand JavaScript.
+
+In JavaScript, almost "everything" is an object.
+
+Booleans can be objects (if defined with the new keyword)
+Numbers can be objects (if defined with the new keyword)
+Strings can be objects (if defined with the new keyword)
+Dates are always objects
+Maths are always objects
+Regular expressions are always objects
+Arrays are always objects
+Functions are always objects
+Objects are always objects
+All JavaScript values, except primitives, are objects.
+
+Objects are variablrs!
+It is a common practice to declare objects with the const keyword.
+ */
+
+
+//  ======= examples:
+
+//{key : values,} -property
+
+// const person = {
+//   name: "Ivan",
+//   surname: "Petrov",
+//   age: 33,
+//   job: "QA engineer",
+//   isAdmin: false
+// }
+// let arrNew = [["name", 'Olya']["age", 22]]
+// // arrNew[0][1]
+// const person2 = {
+//     id: '02',
+//     personalInfo: {
+//        name: {
+//           first: 'Jane',
+//           last: 'Dow',
+//        },
+//       dob: '01/01/1990',
+//       "contactInfo": {
+//         phone: '+123456789',
+//         email: null,
+//         address: {
+//           city: "Boston",
+//           state: "M"
+//         }
+//       },
+//     },
+//    purchases: [null],
+//    car: "Suzuki"
+//   }
+// console.log(person2['personalInfo']['name'].last);
+
+//  console.log(typeof person2);
